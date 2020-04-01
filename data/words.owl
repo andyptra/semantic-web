@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:words="http://example.org/words#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:about="http://example.org/words">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<owl:versionInfo>Created with TopBraid Composer</owl:versionInfo>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>Keyword</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>tanam</words:synonim>
+	<words:synonim>tumbuh</words:synonim>
+	<words:word>tanaman</words:word>
+	<rdfs:label>Keyword 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_10">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>obat</words:meaning>
+	<words:synonim>komplikasi</words:synonim>
+	<words:synonim>obat</words:synonim>
+	<words:synonim>penyakit</words:synonim>
+	<words:synonim>sakit</words:synonim>
+	<words:word>obat</words:word>
+	<rdfs:label>Keyword 10</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_11">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>non obat</words:meaning>
+	<words:synonim>bukan</words:synonim>
+	<words:synonim>selain</words:synonim>
+	<words:word>non_obat</words:word>
+	<rdfs:label>Keyword 11</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_12">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>kingdom</words:meaning>
+	<words:synonim>kingdem</words:synonim>
+	<words:synonim>kingdom</words:synonim>
+	<words:word>kingdom</words:word>
+	<rdfs:label>Keyword 12</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_13">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>divisi</words:meaning>
+	<words:synonim>divisio</words:synonim>
+	<words:word>divisi</words:word>
+	<rdfs:label>Keyword 13</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_14">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>class</words:meaning>
+	<words:synonim>class</words:synonim>
+	<words:synonim>kelas</words:synonim>
+	<words:synonim>klas</words:synonim>
+	<words:word>class</words:word>
+	<rdfs:label>Keyword 14</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_15">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>ordo</words:meaning>
+	<words:synonim>ordo</words:synonim>
+	<words:word>ordo</words:word>
+	<rdfs:label>Keyword 15</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_16">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>family</words:meaning>
+	<words:synonim>familia</words:synonim>
+	<words:word>family</words:word>
+	<rdfs:label>Keyword 16</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_17">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>genus</words:meaning>
+	<words:synonim>genus</words:synonim>
+	<words:word>genus</words:word>
+	<rdfs:label>Keyword 17</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_18">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>species</words:meaning>
+	<words:synonim>species</words:synonim>
+	<words:word>species</words:word>
+	<rdfs:label>Keyword 18</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_19">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>value</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>diabetes</words:meaning>
+	<words:synonim>diabet</words:synonim>
+	<words:word>diabetes</words:word>
+	<rdfs:label>Keyword 19</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>untuk mengobati penyakit, dimanfaatkan untuk</words:meaning>
+	<words:synonim>buat</words:synonim>
+	<words:synonim>guna</words:synonim>
+	<words:synonim>manfaat</words:synonim>
+	<words:synonim>obat</words:synonim>
+	<words:synonim>pakai</words:synonim>
+	<words:synonim>penyakit</words:synonim>
+	<words:synonim>sakit</words:synonim>
+	<words:synonim>sembuh</words:synonim>
+	<words:word>namaManfaat</words:word>
+	<rdfs:label>Keyword 1 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_10">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>jenis manfaatnya</words:meaning>
+	<words:synonim>jenis</words:synonim>
+	<words:synonim>kategori</words:synonim>
+	<words:synonim>manfaat</words:synonim>
+	<words:word>jenisManfaat</words:word>
+	<rdfs:label>Keyword 1 10</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_11">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>berasal dari</words:meaning>
+	<words:synonim>asal</words:synonim>
+	<words:synonim>asli</words:synonim>
+	<words:word>tanamanDaerah</words:word>
+	<rdfs:label>Keyword 1 11</rdfs:label>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_2">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>digunakan oleh</words:meaning>
+	<words:synonim>guna</words:synonim>
+	<words:word>namaEtnis</words:word>
+	<rdfs:label>Keyword 1 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_3">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>diolah dengan cara, dipakai dengan cara</words:meaning>
+	<words:synonim>buat</words:synonim>
+	<words:synonim>cara</words:synonim>
+	<words:synonim>guna</words:synonim>
+	<words:synonim>olah</words:synonim>
+	<words:synonim>pakai</words:synonim>
+	<words:word>namaCaraPenggunaan</words:word>
+	<rdfs:label>Keyword 1 3</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_4">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>klasifikasi tanaman</words:meaning>
+	<words:synonim>class</words:synonim>
+	<words:synonim>family</words:synonim>
+	<words:synonim>genus</words:synonim>
+	<words:synonim>golong</words:synonim>
+	<words:synonim>jenis</words:synonim>
+	<words:synonim>kategor</words:synonim>
+	<words:synonim>masuk</words:synonim>
+	<words:synonim>termasuk</words:synonim>
+	<words:synonim>kelas</words:synonim>
+	<words:synonim>lompok</words:synonim>
+	<words:synonim>divis</words:synonim>
+	<words:synonim>ordo</words:synonim>
+	<words:word>namaKlasifikasi</words:word>
+	<rdfs:label>Keyword 1 4</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_5">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>hidupnya di</words:meaning>
+	<words:synonim>habitat</words:synonim>
+	<words:synonim>hidup</words:synonim>
+	<words:synonim>tempat</words:synonim>
+	<words:synonim>tumbuh</words:synonim>
+	<words:word>namaHabitat</words:word>
+	<rdfs:label>Keyword 1 5</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_6">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>habitusnya di</words:meaning>
+	<words:synonim>habitus</words:synonim>
+	<words:word>namaHabitus</words:word>
+	<rdfs:label>Keyword 1 6</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_7">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>ditemukan di daerah</words:meaning>
+	<words:synonim>daerah</words:synonim>
+	<words:synonim>dapat</words:synonim>
+	<words:synonim>sebar</words:synonim>
+    <words:synonim>asal</words:synonim>
+	<words:synonim>berasal</words:synonim>
+	<words:synonim>tumbuh</words:synonim>
+	<words:word>tanamanDaerah</words:word>
+	<rdfs:label>Keyword 1 7</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_8">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>kategori pH</words:meaning>
+	<words:synonim>jenis</words:synonim>
+	<words:synonim>kategori</words:synonim>
+	<words:synonim>ph</words:synonim>
+	<words:synonim>tingkat</words:synonim>
+	<words:word>kategoripH</words:word>
+	<rdfs:label>Keyword 1 8</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_1_9">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>tanaman</words:forclass>
+	<words:meaning>rentang pH</words:meaning>
+	<words:synonim>pH</words:synonim>
+	<words:synonim>range</words:synonim>
+	<words:synonim>rentang</words:synonim>
+	<words:word>pHRange</words:word>
+	<rdfs:label>Keyword 1 9</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_2">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>bagian pada tanaman yang dimanfaatkan</words:meaning>
+	<words:synonim>fitur, bagian</words:synonim>
+	<words:word>bagian_tanaman</words:word>
+	<rdfs:label>Keyword 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_20">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>value</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>range</words:meaning>
+	<words:synonim>5-6</words:synonim>
+	<words:word>pH 5,0  s/d 6,0 </words:word>
+	<rdfs:label>Keyword 20</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_21">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>value</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>range</words:meaning>
+	<words:synonim>4-5</words:synonim>
+	<words:word>pH 4,0  s/d 5,0 </words:word>
+	<rdfs:label>Keyword 21</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_22">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>value</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>range</words:meaning>
+	<words:synonim>6-7</words:synonim>
+	<words:word>pH 6,0  s/d 7,0 </words:word>
+	<rdfs:label>Keyword 22</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_23">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>value</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>range</words:meaning>
+	<words:synonim>5-7</words:synonim>
+	<words:word>pH 5,0  s/d 7,0 </words:word>
+	<rdfs:label>Keyword 23</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_24">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>value</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning>range</words:meaning>
+	<words:synonim>5-8</words:synonim>
+	<words:word>pH 5,0  s/d 8,0 </words:word>
+	<rdfs:label>Keyword 24</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_25">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning></words:meaning>
+	<words:synonim>bagian_tanaman</words:synonim>
+	<words:word>bagian_tanaman</words:word>
+	<rdfs:label>Keyword 25</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_26">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>property</words:category>
+	<words:forclass>bagian_tanaman</words:forclass>
+	<words:meaning></words:meaning>
+	<words:synonim>obat</words:synonim>
+    <words:synonim>sembuh</words:synonim>
+	<words:word>namaManfaat</words:word>
+	<rdfs:label>Keyword 26</rdfs:label>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_3">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>buat</words:synonim>
+	<words:synonim>cara</words:synonim>
+	<words:synonim>guna</words:synonim>
+	<words:synonim>olah</words:synonim>
+	<words:synonim>pakai</words:synonim>
+	<words:word>penggunaan</words:word>
+	<rdfs:label>Keyword 3</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_3_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>penggunaan</words:forclass>
+	<words:meaning>cara penggunaan tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+    <words:synonim>tanam</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 3 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_3_2">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>penggunaan</words:forclass>
+	<words:meaning>cara penggunaan bagian tanaman</words:meaning>
+	<words:synonim>bagi</words:synonim>
+	<words:word>namaBagianTanaman</words:word>
+	<rdfs:label>Keyword 3 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_3_3">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>penggunaan</words:forclass>
+	<words:meaning>untuk mengobati</words:meaning>
+	<words:synonim>obat</words:synonim>
+	<words:synonim>sembuh</words:synonim>
+	<words:word>namaManfaat</words:word>
+	<rdfs:label>Keyword 3 3</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_4">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>golongan</words:synonim>
+	<words:synonim>jenis</words:synonim>
+	<words:synonim>kategor</words:synonim>
+	<words:synonim>lompok</words:synonim>
+	<words:synonim>klasifikasi</words:synonim>
+	<words:word>klasifikasi</words:word>
+	<rdfs:label>Keyword 4</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_4_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>klasifikasi</words:forclass>
+	<words:meaning>klasifikasi tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+	<words:synonim>tanam</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 4 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_4_2">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>divisi</words:forclass>
+	<words:meaning>divisi tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 4 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_4_3">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>class</words:forclass>
+	<words:meaning>kelas tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 4 3</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_4_4">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>ordo</words:forclass>
+	<words:meaning>ordo tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 4 4</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_4_5">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>family</words:forclass>
+	<words:meaning>family tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 4 5</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_4_6">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>genus</words:forclass>
+	<words:meaning>genus tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+    	<words:synonim>tanam</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 4 6</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_5">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>area</words:synonim>
+	<words:synonim>lingkungan</words:synonim>
+	<words:synonim>habitat</words:synonim>
+	<words:synonim>sekitar</words:synonim>
+	<words:word>habitat</words:word>
+	<rdfs:label>Keyword 5</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_5_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>habitat</words:forclass>
+	<words:meaning>habitat tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+	<words:synonim>tanam</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 5 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_6">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>habitus</words:synonim>
+	<words:word>habitus</words:word>
+	<rdfs:label>Keyword 6</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_6_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>habitus</words:forclass>
+	<words:meaning>habitus tanaman</words:meaning>
+	<words:synonim>tanaman</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 6 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_7">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>bangsa</words:synonim>
+    <words:synonim>etnis</words:synonim>
+	<words:synonim>ethnis</words:synonim>
+	<words:synonim>kaum</words:synonim>
+	<words:synonim>suku</words:synonim>
+	<words:word>etnis</words:word>
+	<rdfs:label>Keyword 7</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_7_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>etnis</words:forclass>
+	<words:meaning>pengguna tanaman</words:meaning>
+	<words:synonim>guna</words:synonim>
+	<words:synonim>tanaman</words:synonim>
+	<words:synonim>tanam</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 7 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_7_2">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>etnis</words:forclass>
+	<words:meaning>berasal dari daerah</words:meaning>
+	<words:synonim>asal</words:synonim>
+	<words:synonim>ada</words:synonim>
+	<words:word>namaDaerah</words:word>
+	<rdfs:label>Keyword 7 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_7_3">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>etnis</words:forclass>
+	<words:meaning>pengguna</words:meaning>
+	<words:synonim>guna_akar</words:synonim>
+	<words:synonim>guna_batang</words:synonim>
+	<words:synonim>guna_biji</words:synonim>
+	<words:synonim>guna_buah</words:synonim>
+	<words:synonim>guna_bunga</words:synonim>
+	<words:synonim>guna_daun</words:synonim>
+	<words:synonim>guna_getah</words:synonim>
+	<words:synonim>guna_kulit_batang</words:synonim>
+	<words:synonim>guna_kulit</words:synonim>
+	<words:synonim>guna_minyak</words:synonim>
+	<words:synonim>guna_rimpang</words:synonim>
+    <words:synonim>guna_kayu</words:synonim>
+	<words:word>namaBagianTanaman</words:word>
+	<rdfs:label>Keyword 7 2</rdfs:label>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_8">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>area</words:synonim>
+	<words:synonim>kampung</words:synonim>
+	<words:synonim>kawasan</words:synonim>
+	<words:synonim>pulau</words:synonim>
+	<words:synonim>wilayah</words:synonim>
+	<words:synonim>zona</words:synonim>
+	<words:word>daerah</words:word>
+	<rdfs:label>Keyword 8</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_8_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>daerah</words:forclass>
+	<words:meaning>daerah suatu tanaman</words:meaning>
+	<words:synonim>sebar</words:synonim>
+	<words:synonim>tanaman</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 8 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_9">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>class</words:category>
+	<words:forclass>all</words:forclass>
+	<words:meaning> </words:meaning>
+	<words:synonim>manfaat</words:synonim>
+		<words:synonim>diobati</words:synonim>
+	<words:word>manfaat</words:word>
+	<rdfs:label>Keyword 9</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_9_1">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>obat</words:forclass>
+	<words:meaning>dapat diobati dengan</words:meaning>
+	<words:synonim>obat</words:synonim>
+	<words:synonim>diobati</words:synonim>
+	<words:synonim>sembuh</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 9 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_9_2">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>obat</words:forclass>
+	<words:meaning>yang diolah dari</words:meaning>
+	<words:synonim>obatt</words:synonim>
+    <words:synonim>sembuh</words:synonim>
+	<words:word>namaBagianTanaman</words:word>
+	<rdfs:label>Keyword 9 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_9_3">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>manfaat</words:forclass>
+	<words:meaning>tanaman</words:meaning>
+	<words:synonim>pohon</words:synonim>
+	<words:synonim>tanaman</words:synonim>
+	<words:synonim>tanam</words:synonim>
+	<words:synonim>obat</words:synonim>
+	<words:synonim>non_obat</words:synonim>	
+	<words:synonim>diobati</words:synonim>
+	<words:word>namaTanaman</words:word>
+	<rdfs:label>Keyword 9 3</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_9_4">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>manfaat</words:forclass>
+	<words:meaning>bagian tanaman</words:meaning>
+	<words:synonim>bagi</words:synonim>
+    <words:word>namaBagianTanaman</words:word>
+	<rdfs:label>Keyword 9 4</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_9_5">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>obat</words:forclass>
+	<words:meaning>diolah dengan</words:meaning>
+	<words:synonim>buat</words:synonim>
+	<words:synonim>cara</words:synonim>
+	<words:synonim>guna</words:synonim>
+	<words:synonim>olah</words:synonim>
+	<words:synonim>pakai</words:synonim>
+	<words:word>namaCaraPenggunaan</words:word>
+	<rdfs:label>Keyword 9 5</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Keyword_9_6">
+	<rdf:type rdf:resource="http://example.org/words#Keyword"/>
+	<words:category>properti</words:category>
+	<words:forclass>obat</words:forclass>
+	<words:meaning>tanaman</words:meaning>
+	<words:synonim>tanam</words:synonim>
+	<words:word>manfaatTanaman</words:word>
+	<rdfs:label>Keyword 9 6</rdfs:label>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://example.org/words#Questionword">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>Questionword</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Questionword_1">
+	<rdf:type rdf:resource="http://example.org/words#Questionword"/>
+	<words:questionword>tampil</words:questionword>
+	<rdfs:label>Questionword 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Questionword_2">
+	<rdf:type rdf:resource="http://example.org/words#Questionword"/>
+	<words:questionword>cari</words:questionword>
+	<rdfs:label>Questionword 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label>Stopword</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_1">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>di</words:stopword>
+	<rdfs:label>Stopword 1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_10">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>dapat</words:stopword>
+	<rdfs:label>Stopword 10</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_11">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>dan</words:stopword>
+	<rdfs:label>Stopword 11</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_12">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>punya</words:stopword>
+	<rdfs:label>Stopword 12</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_2">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>dengan</words:stopword>
+	<rdfs:label>Stopword 2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_3">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>oleh</words:stopword>
+	<rdfs:label>Stopword 3</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_4">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>ke</words:stopword>
+	<rdfs:label>Stopword 4</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_5">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>yang</words:stopword>
+	<rdfs:label>Stopword 5</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_6">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>tapi</words:stopword>
+	<words:stopword>tetapi</words:stopword>
+	<rdfs:label>Stopword 6</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_7">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>ada</words:stopword>
+	<rdfs:label>Stopword 7</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_8">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>untuk</words:stopword>
+	<rdfs:label>Stopword 8</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#Stopword_9">
+	<rdf:type rdf:resource="http://example.org/words#Stopword"/>
+	<words:stopword>dari</words:stopword>
+	<rdfs:label>Stopword 9</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#category">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/words#Keyword"/>
+	<rdfs:label>Category</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#forclass">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/words#Keyword"/>
+	<rdfs:label>forclass</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#meaning">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/words#Keyword"/>
+	<rdfs:label>meaning</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#questionword">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/words#Questionword"/>
+	<rdfs:label>questionword</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#stopword">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/words#Stopword"/>
+	<rdfs:label>stopword</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#synonim">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/words#Keyword"/>
+	<rdfs:label>synonim</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/words#word">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/words#Keyword"/>
+	<rdfs:label>word</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+</rdf:RDF>
